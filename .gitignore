@@ -1,12 +1,22 @@
-# Ignore virtual environment
+# Virtual environments
 venv/
 
-# Ignore Python cache
+# Python cache
 __pycache__/
 *.pyc
 
-# Ignore VS Code settings (optional)
-.vscode/
+# Jupyter Notebook checkpoints (if you ever add notebooks)
+.ipynb_checkpoints/
 
 # macOS system files
 .DS_Store
+
+# VS Code local settings (optional, prevents dev clutter)
+.vscode/
+
+# Streamlit log files (optional)
+.streamlit/
+
+# General backup files
+*.bak
+*.swp
