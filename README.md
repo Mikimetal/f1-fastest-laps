@@ -31,10 +31,6 @@ This project allows you to explore Max Verstappen's fastest laps across all F1 r
 ├── README.md # Project overview & instructions
 └── scripts/ # Helper scripts used during data preparation
 
-yaml
-Copy
-Edit
-
 ---
 
 ## 🛠️ Scripts Folder
