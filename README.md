@@ -5,6 +5,8 @@ This project allows you to explore Max Verstappen's fastest laps across all F1 r
 
 [👉 View Live App on Streamlit Community Cloud](https://f1-fastest-laps-5qwayvvftwubdpkpm8qcoj.streamlit.app/)
 
+![F1_Fastest_Laps_Explorer](https://github.com/Mikimetal/f1-fastest-laps/blob/main/streamlit_app.png?raw=true)
+
 ---
 
 ## 🎯 Features
