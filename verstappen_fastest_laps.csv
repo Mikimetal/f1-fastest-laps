@@ -5,7 +5,7 @@ Year,Driver Name,Driver Number,Race Location,Date,Session Name,Session Type,Fast
 2023,Max Verstappen,1,"Sakhir, Bahrain",2023-03-03,Practice 1,Practice,1:33.375
 2023,Max Verstappen,1,"Sakhir, Bahrain",2023-03-03,Practice 2,Practice,1:31.076
 2023,Max Verstappen,1,"Sakhir, Bahrain",2023-03-04,Practice 3,Practice,1:32.345
-2023,Max Verstappen,1,"Sakhir, Bahrain",2023-03-04,Qualifying,Qualifying,1:29.708
+2023,Max Verstappen,1,"Sakhir, Bahrain",2023-03-04,Qualifying,Qualifying,1:29.897
 2023,Max Verstappen,1,"Sakhir, Bahrain",2023-03-05,Race,Race,1:36.236
 2023,Max Verstappen,1,"Jeddah, Saudi Arabia",2023-03-17,Practice 1,Practice,1:29.617
 2023,Max Verstappen,1,"Jeddah, Saudi Arabia",2023-03-17,Practice 2,Practice,1:29.603
@@ -15,22 +15,22 @@ Year,Driver Name,Driver Number,Race Location,Date,Session Name,Session Type,Fast
 2023,Max Verstappen,1,"Melbourne, Australia",2023-03-31,Practice 1,Practice,1:18.790
 2023,Max Verstappen,1,"Melbourne, Australia",2023-03-31,Practice 2,Practice,1:19.502
 2023,Max Verstappen,1,"Melbourne, Australia",2023-04-01,Practice 3,Practice,1:17.565
-2023,Max Verstappen,1,"Melbourne, Australia",2023-04-01,Qualifying,Qualifying,1:16.732
-2023,Max Verstappen,1,"Melbourne, Australia",2023-04-02,Race,Race,1:20.342
+2023,Max Verstappen,1,"Melbourne, Australia",2023-04-01,Qualifying,Qualifying,1:17.219
+2023,Max Verstappen,1,"Melbourne, Australia",2023-04-02,Race,Race,N/A
 2023,Max Verstappen,1,"Baku, Azerbaijan",2023-04-28,Practice 1,Practice,1:42.315
-2023,Max Verstappen,1,"Baku, Azerbaijan",2023-04-28,Qualifying,Qualifying,1:40.391
-2023,Max Verstappen,1,"Baku, Azerbaijan",2023-04-29,Sprint Shootout,Qualifying,1:41.987
+2023,Max Verstappen,1,"Baku, Azerbaijan",2023-04-28,Qualifying,Qualifying,1:40.445
+2023,Max Verstappen,1,"Baku, Azerbaijan",2023-04-29,Sprint Shootout,Qualifying,1:42.140
 2023,Max Verstappen,1,"Baku, Azerbaijan",2023-04-29,Sprint,Race,1:43.723
 2023,Max Verstappen,1,"Baku, Azerbaijan",2023-04-30,Race,Race,1:44.232
 2023,Max Verstappen,1,"Miami, United States",2023-05-05,Practice 1,Practice,1:30.549
 2023,Max Verstappen,1,"Miami, United States",2023-05-05,Practice 2,Practice,1:27.930
 2023,Max Verstappen,1,"Miami, United States",2023-05-06,Practice 3,Practice,1:27.535
-2023,Max Verstappen,1,"Miami, United States",2023-05-06,Qualifying,Qualifying,1:26.814
+2023,Max Verstappen,1,"Miami, United States",2023-05-06,Qualifying,Qualifying,1:28.424
 2023,Max Verstappen,1,"Miami, United States",2023-05-07,Race,Race,1:29.708
 2023,Max Verstappen,1,"Monaco, Monaco",2023-05-26,Practice 1,Practice,1:14.244
 2023,Max Verstappen,1,"Monaco, Monaco",2023-05-26,Practice 2,Practice,1:12.462
 2023,Max Verstappen,1,"Monaco, Monaco",2023-05-27,Practice 3,Practice,1:12.776
-2023,Max Verstappen,1,"Monaco, Monaco",2023-05-27,Qualifying,Qualifying,1:11.365
+2023,Max Verstappen,1,"Monaco, Monaco",2023-05-27,Qualifying,Qualifying,1:13.038
 2023,Max Verstappen,1,"Monaco, Monaco",2023-05-28,Race,Race,1:16.604
 2023,Max Verstappen,1,"Barcelona, Spain",2023-06-02,Practice 1,Practice,1:14.606
 2023,Max Verstappen,1,"Barcelona, Spain",2023-06-02,Practice 2,Practice,1:13.907
@@ -40,61 +40,62 @@ Year,Driver Name,Driver Number,Race Location,Date,Session Name,Session Type,Fast
 2023,Max Verstappen,1,"Montréal, Canada",2023-06-16,Practice 1,Practice,1:20.231
 2023,Max Verstappen,1,"Montréal, Canada",2023-06-16,Practice 2,Practice,1:14.142
 2023,Max Verstappen,1,"Montréal, Canada",2023-06-17,Practice 3,Practice,1:23.106
-2023,Max Verstappen,1,"Montréal, Canada",2023-06-17,Qualifying,Qualifying,1:19.092
+2023,Max Verstappen,1,"Montréal, Canada",2023-06-17,Qualifying,Qualifying,1:19.152
 2023,Max Verstappen,1,"Montréal, Canada",2023-06-18,Race,Race,1:15.594
-2023,Max Verstappen,1,"Spielberg, Austria",2023-06-30,Qualifying,Qualifying,1:4.391
-2023,Max Verstappen,1,"Spielberg, Austria",2023-07-01,Sprint Shootout,Qualifying,1:4.440
+2023,Max Verstappen,1,"Spielberg, Austria",2023-06-30,Practice 1,Practice,1:5.742
+2023,Max Verstappen,1,"Spielberg, Austria",2023-06-30,Qualifying,Qualifying,1:4.503
+2023,Max Verstappen,1,"Spielberg, Austria",2023-07-01,Sprint Shootout,Qualifying,1:5.624
 2023,Max Verstappen,1,"Spielberg, Austria",2023-07-01,Sprint,Race,1:14.292
 2023,Max Verstappen,1,"Spielberg, Austria",2023-07-02,Race,Race,1:7.012
 2023,Max Verstappen,1,"Silverstone, Great Britain",2023-07-07,Practice 1,Practice,1:28.600
 2023,Max Verstappen,1,"Silverstone, Great Britain",2023-07-07,Practice 2,Practice,1:28.078
 2023,Max Verstappen,1,"Silverstone, Great Britain",2023-07-08,Practice 3,Practice,1:28.266
-2023,Max Verstappen,1,"Silverstone, Great Britain",2023-07-08,Qualifying,Qualifying,1:26.720
-2023,Max Verstappen,1,"Silverstone, Great Britain",2023-07-09,Race,Race,1:30.275
-2023,Max Verstappen,1,"Budapest, Hungary",2023-07-21,Practice 1,Practice,10:30.621
+2023,Max Verstappen,1,"Silverstone, Great Britain",2023-07-08,Qualifying,Qualifying,1:27.084
+2023,Max Verstappen,1,"Silverstone, Great Britain",2023-07-09,Race,Race,N/A
+2023,Max Verstappen,1,"Budapest, Hungary",2023-07-21,Practice 1,Practice,N/A
 2023,Max Verstappen,1,"Budapest, Hungary",2023-07-21,Practice 2,Practice,1:18.279
 2023,Max Verstappen,1,"Budapest, Hungary",2023-07-22,Practice 3,Practice,1:18.061
 2023,Max Verstappen,1,"Budapest, Hungary",2023-07-22,Qualifying,Qualifying,1:16.612
 2023,Max Verstappen,1,"Budapest, Hungary",2023-07-23,Race,Race,1:20.504
-2023,Max Verstappen,1,"Spa-Francorchamps, Belgium",2023-07-28,Practice 1,Practice,27:11.113
-2023,Max Verstappen,1,"Spa-Francorchamps, Belgium",2023-07-28,Qualifying,Qualifying,1:46.168
-2023,Max Verstappen,1,"Spa-Francorchamps, Belgium",2023-07-29,Sprint Shootout,Qualifying,1:49.056
+2023,Max Verstappen,1,"Spa-Francorchamps, Belgium",2023-07-28,Practice 1,Practice,N/A
+2023,Max Verstappen,1,"Spa-Francorchamps, Belgium",2023-07-28,Qualifying,Qualifying,1:48.059
+2023,Max Verstappen,1,"Spa-Francorchamps, Belgium",2023-07-29,Sprint Shootout,Qualifying,1:51.286
 2023,Max Verstappen,1,"Spa-Francorchamps, Belgium",2023-07-29,Sprint,Race,1:58.943
 2023,Max Verstappen,1,"Spa-Francorchamps, Belgium",2023-07-30,Race,Race,1:48.922
-2023,Max Verstappen,1,"Zandvoort, Netherlands",2023-08-25,Practice 1,Practice,1:11.852
+2023,Max Verstappen,1,"Zandvoort, Netherlands",2023-08-25,Practice 1,Practice,1:12.091
 2023,Max Verstappen,1,"Zandvoort, Netherlands",2023-08-25,Practice 2,Practice,1:11.353
 2023,Max Verstappen,1,"Zandvoort, Netherlands",2023-08-26,Practice 3,Practice,1:21.631
-2023,Max Verstappen,1,"Zandvoort, Netherlands",2023-08-26,Qualifying,Qualifying,1:10.567
+2023,Max Verstappen,1,"Zandvoort, Netherlands",2023-08-26,Qualifying,Qualifying,1:12.105
 2023,Max Verstappen,1,"Zandvoort, Netherlands",2023-08-27,Race,Race,1:13.889
 2023,Max Verstappen,1,"Monza, Italy",2023-09-01,Practice 1,Practice,1:22.657
 2023,Max Verstappen,1,"Monza, Italy",2023-09-01,Practice 2,Practice,1:21.631
 2023,Max Verstappen,1,"Monza, Italy",2023-09-02,Practice 3,Practice,1:20.998
-2023,Max Verstappen,1,"Monza, Italy",2023-09-02,Qualifying,Qualifying,1:20.307
+2023,Max Verstappen,1,"Monza, Italy",2023-09-02,Qualifying,Qualifying,1:20.631
 2023,Max Verstappen,1,"Monza, Italy",2023-09-03,Race,Race,1:25.240
 2023,Max Verstappen,1,"Marina Bay, Singapore",2023-09-15,Practice 1,Practice,1:33.476
 2023,Max Verstappen,1,"Marina Bay, Singapore",2023-09-15,Practice 2,Practice,1:32.852
 2023,Max Verstappen,1,"Marina Bay, Singapore",2023-09-16,Practice 3,Practice,1:32.378
-2023,Max Verstappen,1,"Marina Bay, Singapore",2023-09-16,Qualifying,Qualifying,1:32.173
+2023,Max Verstappen,1,"Marina Bay, Singapore",2023-09-16,Qualifying,Qualifying,1:32.307
 2023,Max Verstappen,1,"Marina Bay, Singapore",2023-09-17,Race,Race,1:36.575
 2023,Max Verstappen,1,"Suzuka, Japan",2023-09-22,Practice 1,Practice,1:31.647
-2023,Max Verstappen,1,"Suzuka, Japan",2023-09-22,Practice 2,Practice,1:30.688
+2023,Max Verstappen,1,"Suzuka, Japan",2023-09-22,Practice 2,Practice,1:31.377
 2023,Max Verstappen,1,"Suzuka, Japan",2023-09-23,Practice 3,Practice,1:30.267
-2023,Max Verstappen,1,"Suzuka, Japan",2023-09-23,Qualifying,Qualifying,1:28.877
+2023,Max Verstappen,1,"Suzuka, Japan",2023-09-23,Qualifying,Qualifying,1:32.230
 2023,Max Verstappen,1,"Suzuka, Japan",2023-09-24,Race,Race,1:34.183
-2023,Max Verstappen,1,"Lusail, Qatar",2023-10-06,Practice 1,Practice,1:25.007
+2023,Max Verstappen,1,"Lusail, Qatar",2023-10-06,Practice 1,Practice,1:29.316
 2023,Max Verstappen,1,"Lusail, Qatar",2023-10-06,Qualifying,Qualifying,1:23.778
 2023,Max Verstappen,1,"Lusail, Qatar",2023-10-07,Sprint Shootout,Qualifying,1:24.543
 2023,Max Verstappen,1,"Lusail, Qatar",2023-10-07,Sprint,Race,1:25.604
 2023,Max Verstappen,1,"Lusail, Qatar",2023-10-08,Race,Race,1:24.319
 2023,Max Verstappen,1,"Austin, United States",2023-10-20,Practice 1,Practice,1:35.912
-2023,Max Verstappen,1,"Austin, United States",2023-10-20,Qualifying,Qualifying,1:34.718
-2023,Max Verstappen,1,"Austin, United States",2023-10-21,Sprint Shootout,Qualifying,1:34.538
+2023,Max Verstappen,1,"Austin, United States",2023-10-20,Qualifying,Qualifying,1:35.008
+2023,Max Verstappen,1,"Austin, United States",2023-10-21,Sprint Shootout,Qualifying,1:35.997
 2023,Max Verstappen,1,"Austin, United States",2023-10-21,Sprint,Race,1:39.060
 2023,Max Verstappen,1,"Austin, United States",2023-10-22,Race,Race,1:40.028
 2023,Max Verstappen,1,"Mexico City, Mexico",2023-10-27,Practice 1,Practice,1:19.718
 2023,Max Verstappen,1,"Mexico City, Mexico",2023-10-27,Practice 2,Practice,1:18.686
 2023,Max Verstappen,1,"Mexico City, Mexico",2023-10-28,Practice 3,Practice,1:17.887
-2023,Max Verstappen,1,"Mexico City, Mexico",2023-10-28,Qualifying,Qualifying,1:17.263
+2023,Max Verstappen,1,"Mexico City, Mexico",2023-10-28,Qualifying,Qualifying,1:17.286
 2023,Max Verstappen,1,"Mexico City, Mexico",2023-10-29,Race,Race,1:21.644
 2023,Max Verstappen,1,"São Paulo, Brazil",2023-11-03,Practice 1,Practice,1:12.793
 2023,Max Verstappen,1,"São Paulo, Brazil",2023-11-03,Qualifying,Qualifying,1:10.162
@@ -109,42 +110,45 @@ Year,Driver Name,Driver Number,Race Location,Date,Session Name,Session Type,Fast
 2023,Max Verstappen,1,"Yas Island, United Arab Emirates",2023-11-24,Practice 1,Practice,N/A
 2023,Max Verstappen,1,"Yas Island, United Arab Emirates",2023-11-24,Practice 2,Practice,1:24.982
 2023,Max Verstappen,1,"Yas Island, United Arab Emirates",2023-11-25,Practice 3,Practice,1:25.153
-2023,Max Verstappen,1,"Yas Island, United Arab Emirates",2023-11-25,Qualifying,Qualifying,1:23.445
+2023,Max Verstappen,1,"Yas Island, United Arab Emirates",2023-11-25,Qualifying,Qualifying,1:23.740
 2023,Max Verstappen,1,"Yas Island, United Arab Emirates",2023-11-26,Race,Race,1:26.993
+2024,Max Verstappen,1,"Sakhir, Bahrain",2024-02-21,Practice 1,Practice,1:31.344
+2024,Max Verstappen,1,"Sakhir, Bahrain",2024-02-22,Practice 2,Practice,N/A
+2024,Max Verstappen,1,"Sakhir, Bahrain",2024-02-23,Practice 3,Practice,1:30.755
 2024,Max Verstappen,1,"Sakhir, Bahrain",2024-02-29,Practice 1,Practice,1:33.238
 2024,Max Verstappen,1,"Sakhir, Bahrain",2024-02-29,Practice 2,Practice,1:30.851
-2024,Max Verstappen,1,"Sakhir, Bahrain",2024-03-01,Practice 3,Practice,1:31.062
-2024,Max Verstappen,1,"Sakhir, Bahrain",2024-03-01,Qualifying,Qualifying,1:29.179
+2024,Max Verstappen,1,"Sakhir, Bahrain",2024-03-01,Practice 3,Practice,1:31.246
+2024,Max Verstappen,1,"Sakhir, Bahrain",2024-03-01,Qualifying,Qualifying,1:29.374
 2024,Max Verstappen,1,"Sakhir, Bahrain",2024-03-02,Race,Race,1:32.608
 2024,Max Verstappen,1,"Jeddah, Saudi Arabia",2024-03-07,Practice 1,Practice,1:29.659
 2024,Max Verstappen,1,"Jeddah, Saudi Arabia",2024-03-07,Practice 2,Practice,1:29.158
 2024,Max Verstappen,1,"Jeddah, Saudi Arabia",2024-03-08,Practice 3,Practice,1:28.412
 2024,Max Verstappen,1,"Jeddah, Saudi Arabia",2024-03-08,Qualifying,Qualifying,1:27.472
-2024,Max Verstappen,1,"Jeddah, Saudi Arabia",2024-03-09,Race,Race,N/A
-2024,Max Verstappen,1,"Melbourne, Australia",2024-03-22,Practice 1,Practice,N/A
+2024,Max Verstappen,1,"Jeddah, Saudi Arabia",2024-03-09,Race,Race,1:31.773
+2024,Max Verstappen,1,"Melbourne, Australia",2024-03-22,Practice 1,Practice,1:18.582
 2024,Max Verstappen,1,"Melbourne, Australia",2024-03-22,Practice 2,Practice,1:17.658
 2024,Max Verstappen,1,"Melbourne, Australia",2024-03-23,Practice 3,Practice,1:16.734
-2024,Max Verstappen,1,"Melbourne, Australia",2024-03-23,Qualifying,Qualifying,1:15.915
+2024,Max Verstappen,1,"Melbourne, Australia",2024-03-23,Qualifying,Qualifying,1:16.048
 2024,Max Verstappen,1,"Melbourne, Australia",2024-03-24,Race,Race,1:23.115
 2024,Max Verstappen,1,"Suzuka, Japan",2024-04-05,Practice 1,Practice,1:30.056
 2024,Max Verstappen,1,"Suzuka, Japan",2024-04-05,Practice 2,Practice,N/A
 2024,Max Verstappen,1,"Suzuka, Japan",2024-04-06,Practice 3,Practice,1:29.563
-2024,Max Verstappen,1,"Suzuka, Japan",2024-04-06,Qualifying,Qualifying,1:28.197
+2024,Max Verstappen,1,"Suzuka, Japan",2024-04-06,Qualifying,Qualifying,1:28.240
 2024,Max Verstappen,1,"Suzuka, Japan",2024-04-07,Race,Race,1:33.706
 2024,Max Verstappen,1,"Shanghai, China",2024-04-19,Practice 1,Practice,1:36.660
 2024,Max Verstappen,1,"Shanghai, China",2024-04-19,Sprint Qualifying,Qualifying,1:35.606
 2024,Max Verstappen,1,"Shanghai, China",2024-04-20,Sprint,Race,1:40.331
-2024,Max Verstappen,1,"Shanghai, China",2024-04-20,Qualifying,Qualifying,1:33.660
+2024,Max Verstappen,1,"Shanghai, China",2024-04-20,Qualifying,Qualifying,1:33.946
 2024,Max Verstappen,1,"Shanghai, China",2024-04-21,Race,Race,1:38.406
 2024,Max Verstappen,1,"Miami, United States",2024-05-03,Practice 1,Practice,1:28.595
 2024,Max Verstappen,1,"Miami, United States",2024-05-03,Sprint Qualifying,Qualifying,1:27.641
 2024,Max Verstappen,1,"Miami, United States",2024-05-04,Sprint,Race,1:30.415
-2024,Max Verstappen,1,"Miami, United States",2024-05-04,Qualifying,Qualifying,N/A
+2024,Max Verstappen,1,"Miami, United States",2024-05-04,Qualifying,Qualifying,1:27.241
 2024,Max Verstappen,1,"Miami, United States",2024-05-05,Race,Race,1:31.261
 2024,Max Verstappen,1,"Imola, Italy",2024-05-17,Practice 1,Practice,1:17.240
 2024,Max Verstappen,1,"Imola, Italy",2024-05-17,Practice 2,Practice,1:16.447
 2024,Max Verstappen,1,"Imola, Italy",2024-05-18,Practice 3,Practice,1:16.366
-2024,Max Verstappen,1,"Imola, Italy",2024-05-18,Qualifying,Qualifying,1:14.746
+2024,Max Verstappen,1,"Imola, Italy",2024-05-18,Qualifying,Qualifying,1:14.869
 2024,Max Verstappen,1,"Imola, Italy",2024-05-19,Race,Race,1:20.366
 2024,Max Verstappen,1,"Monaco, Monaco",2024-05-24,Practice 1,Practice,1:12.984
 2024,Max Verstappen,1,"Monaco, Monaco",2024-05-24,Practice 2,Practice,1:11.813
@@ -154,12 +158,12 @@ Year,Driver Name,Driver Number,Race Location,Date,Session Name,Session Type,Fast
 2024,Max Verstappen,1,"Montréal, Canada",2024-06-07,Practice 1,Practice,1:26.502
 2024,Max Verstappen,1,"Montréal, Canada",2024-06-07,Practice 2,Practice,1:19.311
 2024,Max Verstappen,1,"Montréal, Canada",2024-06-08,Practice 3,Practice,1:12.923
-2024,Max Verstappen,1,"Montréal, Canada",2024-06-08,Qualifying,Qualifying,1:12.000
+2024,Max Verstappen,1,"Montréal, Canada",2024-06-08,Qualifying,Qualifying,1:12.358
 2024,Max Verstappen,1,"Montréal, Canada",2024-06-09,Race,Race,1:15.569
-2024,Max Verstappen,1,"Barcelona, Spain",2024-06-21,Practice 1,Practice,1:14.252
+2024,Max Verstappen,1,"Barcelona, Spain",2024-06-21,Practice 1,Practice,1:16.254
 2024,Max Verstappen,1,"Barcelona, Spain",2024-06-21,Practice 2,Practice,1:13.504
 2024,Max Verstappen,1,"Barcelona, Spain",2024-06-22,Practice 3,Practice,1:13.087
-2024,Max Verstappen,1,"Barcelona, Spain",2024-06-22,Qualifying,Qualifying,1:11.403
+2024,Max Verstappen,1,"Barcelona, Spain",2024-06-22,Qualifying,Qualifying,1:11.653
 2024,Max Verstappen,1,"Barcelona, Spain",2024-06-23,Race,Race,1:17.776
 2024,Max Verstappen,1,"Spielberg, Austria",2024-06-28,Practice 1,Practice,1:5.685
 2024,Max Verstappen,1,"Spielberg, Austria",2024-06-28,Sprint Qualifying,Qualifying,1:4.686
@@ -169,12 +173,12 @@ Year,Driver Name,Driver Number,Race Location,Date,Session Name,Session Type,Fast
 2024,Max Verstappen,1,"Silverstone, Great Britain",2024-07-05,Practice 1,Practice,1:27.729
 2024,Max Verstappen,1,"Silverstone, Great Britain",2024-07-05,Practice 2,Practice,1:27.233
 2024,Max Verstappen,1,"Silverstone, Great Britain",2024-07-06,Practice 3,Practice,1:38.393
-2024,Max Verstappen,1,"Silverstone, Great Britain",2024-07-06,Qualifying,Qualifying,1:26.203
+2024,Max Verstappen,1,"Silverstone, Great Britain",2024-07-06,Qualifying,Qualifying,1:26.350
 2024,Max Verstappen,1,"Silverstone, Great Britain",2024-07-07,Race,Race,1:28.952
 2024,Max Verstappen,1,"Budapest, Hungary",2024-07-19,Practice 1,Practice,1:18.989
 2024,Max Verstappen,1,"Budapest, Hungary",2024-07-19,Practice 2,Practice,1:18.031
 2024,Max Verstappen,1,"Budapest, Hungary",2024-07-20,Practice 3,Practice,1:16.379
-2024,Max Verstappen,1,"Budapest, Hungary",2024-07-20,Qualifying,Qualifying,1:15.273
+2024,Max Verstappen,1,"Budapest, Hungary",2024-07-20,Qualifying,Qualifying,1:15.555
 2024,Max Verstappen,1,"Budapest, Hungary",2024-07-21,Race,Race,1:20.908
 2024,Max Verstappen,1,"Spa-Francorchamps, Belgium",2024-07-26,Practice 1,Practice,1:43.372
 2024,Max Verstappen,1,"Spa-Francorchamps, Belgium",2024-07-26,Practice 2,Practice,1:42.477
@@ -184,47 +188,47 @@ Year,Driver Name,Driver Number,Race Location,Date,Session Name,Session Type,Fast
 2024,Max Verstappen,1,"Zandvoort, Netherlands",2024-08-23,Practice 1,Practice,1:12.523
 2024,Max Verstappen,1,"Zandvoort, Netherlands",2024-08-23,Practice 2,Practice,1:10.986
 2024,Max Verstappen,1,"Zandvoort, Netherlands",2024-08-24,Practice 3,Practice,1:24.360
-2024,Max Verstappen,1,"Zandvoort, Netherlands",2024-08-24,Qualifying,Qualifying,1:10.029
+2024,Max Verstappen,1,"Zandvoort, Netherlands",2024-08-24,Qualifying,Qualifying,1:10.222
 2024,Max Verstappen,1,"Zandvoort, Netherlands",2024-08-25,Race,Race,1:14.752
 2024,Max Verstappen,1,"Monza, Italy",2024-08-30,Practice 1,Practice,1:21.676
 2024,Max Verstappen,1,"Monza, Italy",2024-08-30,Practice 2,Practice,1:21.610
 2024,Max Verstappen,1,"Monza, Italy",2024-08-31,Practice 3,Practice,1:20.368
-2024,Max Verstappen,1,"Monza, Italy",2024-08-31,Qualifying,Qualifying,1:19.662
+2024,Max Verstappen,1,"Monza, Italy",2024-08-31,Qualifying,Qualifying,1:19.874
 2024,Max Verstappen,1,"Monza, Italy",2024-09-01,Race,Race,1:21.745
 2024,Max Verstappen,1,"Baku, Azerbaijan",2024-09-13,Practice 1,Practice,1:45.546
 2024,Max Verstappen,1,"Baku, Azerbaijan",2024-09-13,Practice 2,Practice,1:44.029
 2024,Max Verstappen,1,"Baku, Azerbaijan",2024-09-14,Practice 3,Practice,1:42.862
-2024,Max Verstappen,1,"Baku, Azerbaijan",2024-09-14,Qualifying,Qualifying,1:42.023
+2024,Max Verstappen,1,"Baku, Azerbaijan",2024-09-14,Qualifying,Qualifying,1:42.042
 2024,Max Verstappen,1,"Baku, Azerbaijan",2024-09-15,Race,Race,1:46.798
 2024,Max Verstappen,1,"Marina Bay, Singapore",2024-09-20,Practice 1,Practice,1:32.097
 2024,Max Verstappen,1,"Marina Bay, Singapore",2024-09-20,Practice 2,Practice,1:32.021
 2024,Max Verstappen,1,"Marina Bay, Singapore",2024-09-21,Practice 3,Practice,1:30.540
-2024,Max Verstappen,1,"Marina Bay, Singapore",2024-09-21,Qualifying,Qualifying,1:29.680
+2024,Max Verstappen,1,"Marina Bay, Singapore",2024-09-21,Qualifying,Qualifying,1:29.791
 2024,Max Verstappen,1,"Marina Bay, Singapore",2024-09-22,Race,Race,1:35.967
 2024,Max Verstappen,1,"Austin, United States",2024-10-18,Practice 1,Practice,1:33.855
 2024,Max Verstappen,1,"Austin, United States",2024-10-18,Sprint Qualifying,Qualifying,1:32.833
-2024,Max Verstappen,1,"Austin, United States",2024-10-19,Sprint,Race,1:37.463
+2024,Max Verstappen,1,"Austin, United States",2024-10-19,Sprint,Race,1:37.831
 2024,Max Verstappen,1,"Austin, United States",2024-10-19,Qualifying,Qualifying,1:32.361
 2024,Max Verstappen,1,"Austin, United States",2024-10-20,Race,Race,1:38.117
 2024,Max Verstappen,1,"Mexico City, Mexico",2024-10-25,Practice 1,Practice,1:18.839
 2024,Max Verstappen,1,"Mexico City, Mexico",2024-10-25,Practice 2,Practice,1:28.234
-2024,Max Verstappen,1,"Mexico City, Mexico",2024-10-26,Practice 3,Practice,1:17.003
-2024,Max Verstappen,1,"Mexico City, Mexico",2024-10-26,Qualifying,Qualifying,1:16.171
+2024,Max Verstappen,1,"Mexico City, Mexico",2024-10-26,Practice 3,Practice,1:17.251
+2024,Max Verstappen,1,"Mexico City, Mexico",2024-10-26,Qualifying,Qualifying,1:16.368
 2024,Max Verstappen,1,"Mexico City, Mexico",2024-10-27,Race,Race,1:20.872
 2024,Max Verstappen,1,"São Paulo, Brazil",2024-11-01,Practice 1,Practice,1:11.712
 2024,Max Verstappen,1,"São Paulo, Brazil",2024-11-01,Sprint Qualifying,Qualifying,1:9.219
 2024,Max Verstappen,1,"São Paulo, Brazil",2024-11-02,Sprint,Race,1:11.852
-2024,Max Verstappen,1,"São Paulo, Brazil",2024-11-02,Qualifying,Qualifying,N/A
+2024,Max Verstappen,1,"São Paulo, Brazil",2024-11-02,Qualifying,Qualifying,1:27.771
 2024,Max Verstappen,1,"São Paulo, Brazil",2024-11-03,Race,Race,1:20.472
 2024,Max Verstappen,1,"Las Vegas, United States",2024-11-22,Practice 1,Practice,1:36.038
 2024,Max Verstappen,1,"Las Vegas, United States",2024-11-22,Practice 2,Practice,1:35.834
 2024,Max Verstappen,1,"Las Vegas, United States",2024-11-23,Practice 3,Practice,1:34.137
-2024,Max Verstappen,1,"Las Vegas, United States",2024-11-23,Qualifying,Qualifying,1:32.797
+2024,Max Verstappen,1,"Las Vegas, United States",2024-11-23,Qualifying,Qualifying,1:33.201
 2024,Max Verstappen,1,"Las Vegas, United States",2024-11-24,Race,Race,1:36.248
 2024,Max Verstappen,1,"Lusail, Qatar",2024-11-29,Practice 1,Practice,1:23.213
 2024,Max Verstappen,1,"Lusail, Qatar",2024-11-29,Sprint Qualifying,Qualifying,1:21.315
 2024,Max Verstappen,1,"Lusail, Qatar",2024-11-30,Sprint,Race,1:24.577
-2024,Max Verstappen,1,"Lusail, Qatar",2024-11-30,Qualifying,Qualifying,1:20.520
+2024,Max Verstappen,1,"Lusail, Qatar",2024-11-30,Qualifying,Qualifying,1:20.620
 2024,Max Verstappen,1,"Lusail, Qatar",2024-12-01,Race,Race,1:22.905
 2024,Max Verstappen,1,"Yas Island, United Arab Emirates",2024-12-06,Practice 1,Practice,N/A
 2024,Max Verstappen,1,"Yas Island, United Arab Emirates",2024-12-06,Practice 2,Practice,1:24.598
@@ -236,31 +240,61 @@ Year,Driver Name,Driver Number,Race Location,Date,Session Name,Session Type,Fast
 2025,Max Verstappen,1,"Sakhir, Bahrain",2025-02-28,Day 3,Practice,1:29.566
 2025,Max Verstappen,1,"Melbourne, Australia",2025-03-14,Practice 1,Practice,1:17.696
 2025,Max Verstappen,1,"Melbourne, Australia",2025-03-14,Practice 2,Practice,1:17.063
-2025,Max Verstappen,1,"Melbourne, Australia",2025-03-15,Practice 3,Practice,N/A
-2025,Max Verstappen,1,"Melbourne, Australia",2025-03-15,Qualifying,Qualifying,1:15.481
+2025,Max Verstappen,1,"Melbourne, Australia",2025-03-15,Practice 3,Practice,1:16.002
+2025,Max Verstappen,1,"Melbourne, Australia",2025-03-15,Qualifying,Qualifying,1:15.671
 2025,Max Verstappen,1,"Melbourne, Australia",2025-03-16,Race,Race,1:23.081
 2025,Max Verstappen,1,"Shanghai, China",2025-03-21,Practice 1,Practice,1:33.284
 2025,Max Verstappen,1,"Shanghai, China",2025-03-21,Sprint Qualifying,Qualifying,1:30.867
 2025,Max Verstappen,1,"Shanghai, China",2025-03-22,Sprint,Race,1:35.745
-2025,Max Verstappen,1,"Shanghai, China",2025-03-22,Qualifying,Qualifying,1:30.817
+2025,Max Verstappen,1,"Shanghai, China",2025-03-22,Qualifying,Qualifying,1:30.925
 2025,Max Verstappen,1,"Shanghai, China",2025-03-23,Race,Race,1:35.488
 2025,Max Verstappen,1,"Suzuka, Japan",2025-04-04,Practice 1,Practice,1:29.065
 2025,Max Verstappen,1,"Suzuka, Japan",2025-04-04,Practice 2,Practice,1:28.670
 2025,Max Verstappen,1,"Suzuka, Japan",2025-04-05,Practice 3,Practice,1:28.497
-2025,Max Verstappen,1,"Suzuka, Japan",2025-04-05,Qualifying,Qualifying,1:26.983
+2025,Max Verstappen,1,"Suzuka, Japan",2025-04-05,Qualifying,Qualifying,1:27.278
 2025,Max Verstappen,1,"Suzuka, Japan",2025-04-06,Race,Race,1:31.041
 2025,Max Verstappen,1,"Sakhir, Bahrain",2025-04-11,Practice 1,Practice,N/A
 2025,Max Verstappen,1,"Sakhir, Bahrain",2025-04-11,Practice 2,Practice,1:31.330
 2025,Max Verstappen,1,"Sakhir, Bahrain",2025-04-12,Practice 3,Practice,1:33.027
-2025,Max Verstappen,1,"Sakhir, Bahrain",2025-04-12,Qualifying,Qualifying,1:30.423
+2025,Max Verstappen,1,"Sakhir, Bahrain",2025-04-12,Qualifying,Qualifying,1:32.057
 2025,Max Verstappen,1,"Sakhir, Bahrain",2025-04-13,Race,Race,1:36.167
 2025,Max Verstappen,1,"Jeddah, Saudi Arabia",2025-04-18,Practice 1,Practice,1:29.818
 2025,Max Verstappen,1,"Jeddah, Saudi Arabia",2025-04-18,Practice 2,Practice,1:28.547
 2025,Max Verstappen,1,"Jeddah, Saudi Arabia",2025-04-19,Practice 3,Practice,1:28.334
-2025,Max Verstappen,1,"Jeddah, Saudi Arabia",2025-04-19,Qualifying,Qualifying,1:27.294
-2025,Max Verstappen,1,"Jeddah, Saudi Arabia",2025-04-20,Race,Race,1:32.500
+2025,Max Verstappen,1,"Jeddah, Saudi Arabia",2025-04-19,Qualifying,Qualifying,1:27.529
+2025,Max Verstappen,1,"Jeddah, Saudi Arabia",2025-04-20,Race,Race,1:32.280
 2025,Max Verstappen,1,"Miami, United States",2025-05-02,Practice 1,Practice,1:27.558
-2025,Max Verstappen,1,"Miami, United States",2025-05-02,Sprint Qualifying,Qualifying,1:26.737
+2025,Max Verstappen,1,"Miami, United States",2025-05-02,Sprint Qualifying,Qualifying,1:27.729
 2025,Max Verstappen,1,"Miami, United States",2025-05-03,Sprint,Race,1:40.697
-2025,Max Verstappen,1,"Miami, United States",2025-05-03,Qualifying,Qualifying,1:26.204
-2025,Max Verstappen,1,"Miami, United States",2025-05-04,Race,Race,1:30.523
+2025,Max Verstappen,1,"Miami, United States",2025-05-03,Qualifying,Qualifying,1:26.492
+2025,Max Verstappen,1,"Miami, United States",2025-05-04,Race,Race,1:30.466
+2025,Max Verstappen,1,"Imola, Italy",2025-05-16,Practice 1,Practice,1:16.905
+2025,Max Verstappen,1,"Imola, Italy",2025-05-16,Practice 2,Practice,1:15.735
+2025,Max Verstappen,1,"Imola, Italy",2025-05-17,Practice 3,Practice,1:15.078
+2025,Max Verstappen,1,"Imola, Italy",2025-05-17,Qualifying,Qualifying,1:14.704
+2025,Max Verstappen,1,"Imola, Italy",2025-05-18,Race,Race,1:17.988
+2025,Max Verstappen,1,"Monaco, Monaco",2025-05-23,Practice 1,Practice,1:12.127
+2025,Max Verstappen,1,"Monaco, Monaco",2025-05-23,Practice 2,Practice,1:12.068
+2025,Max Verstappen,1,"Monaco, Monaco",2025-05-24,Practice 3,Practice,1:11.233
+2025,Max Verstappen,1,"Monaco, Monaco",2025-05-24,Qualifying,Qualifying,1:10.669
+2025,Max Verstappen,1,"Monaco, Monaco",2025-05-25,Race,Race,N/A
+2025,Max Verstappen,1,"Barcelona, Spain",2025-05-30,Practice 1,Practice,1:14.085
+2025,Max Verstappen,1,"Barcelona, Spain",2025-05-30,Practice 2,Practice,1:13.070
+2025,Max Verstappen,1,"Barcelona, Spain",2025-05-31,Practice 3,Practice,1:13.375
+2025,Max Verstappen,1,"Barcelona, Spain",2025-05-31,Qualifying,Qualifying,1:12.321
+2025,Max Verstappen,1,"Barcelona, Spain",2025-06-01,Race,Race,1:17.019
+2025,Max Verstappen,1,"Montréal, Canada",2025-06-13,Practice 1,Practice,1:13.193
+2025,Max Verstappen,1,"Montréal, Canada",2025-06-13,Practice 2,Practice,1:12.666
+2025,Max Verstappen,1,"Montréal, Canada",2025-06-14,Practice 3,Practice,1:12.072
+2025,Max Verstappen,1,"Montréal, Canada",2025-06-14,Qualifying,Qualifying,1:11.059
+2025,Max Verstappen,1,"Montréal, Canada",2025-06-15,Race,Race,1:14.287
+2025,Max Verstappen,1,"Spielberg, Austria",2025-06-27,Practice 1,Practice,1:5.607
+2025,Max Verstappen,1,"Spielberg, Austria",2025-06-27,Practice 2,Practice,1:4.898
+2025,Max Verstappen,1,"Spielberg, Austria",2025-06-28,Practice 3,Practice,1:4.534
+2025,Max Verstappen,1,"Spielberg, Austria",2025-06-28,Qualifying,Qualifying,1:4.836
+2025,Max Verstappen,1,"Spielberg, Austria",2025-06-29,Race,Race,N/A
+2025,Max Verstappen,1,"Silverstone, United Kingdom",2025-07-04,Practice 1,Practice,1:27.432
+2025,Max Verstappen,1,"Silverstone, United Kingdom",2025-07-04,Practice 2,Practice,1:26.314
+2025,Max Verstappen,1,"Silverstone, United Kingdom",2025-07-05,Practice 3,Practice,1:25.585
+2025,Max Verstappen,1,"Silverstone, United Kingdom",2025-07-05,Qualifying,Qualifying,1:24.892
+2025,Max Verstappen,1,"Silverstone, United Kingdom",2025-07-06,Race,Race,1:30.179
