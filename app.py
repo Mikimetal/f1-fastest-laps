@@ -30,8 +30,12 @@ def timedelta_to_str(td):
 st.set_page_config(page_title="F1 Fastest Laps Explorer", page_icon="🏎️", layout="wide")
 
 @st.cache_data
-def load_data():
+def load_verstappen_data():
     return pd.read_csv("verstappen_fastest_laps.csv")
+
+@st.cache_data
+def load_all_drivers_data():
+    return pd.read_csv("all_drivers_fastest_laps.csv")
 
 # ========================================
 # Top header with logo + title
@@ -39,94 +43,114 @@ def load_data():
 header_col1, header_col2 = st.columns([1, 8])
 with header_col1:
     try:
-        st.image("f1_logo.png", width=80, caption="Formula 1 Logo")
+        st.image("f1_logo.png", width=80)
     except Exception:
-        st.write("F1 Logo")
+        st.write("")
 with header_col2:
     st.markdown("<h1 style='text-align: left;'>F1 Fastest Laps Explorer</h1>", unsafe_allow_html=True)
 
-with st.sidebar:
-    st.header("Filters")
-    df = load_data()
-    years = df["Year"].sort_values().unique()
-    selected_year = st.selectbox("Select Year", years)
+verstappen_df = load_verstappen_data()
+all_drivers_df = load_all_drivers_data()
 
 ## ========================================
-# Process data for grouped bar chart (Race vs Qualifying)
+# Tabs: Ranking, Races, Driver Log
 ## ========================================
-filtered_df = df[(df["Year"] == selected_year) & (df["Session Type"].isin(["Race", "Qualifying"]))].copy()
-filtered_df["Lap Duration"] = filtered_df["Fastest Lap Time"].apply(time_to_timedelta)
+tab1, tab2, tab3 = st.tabs(["Ranking", "Races", "Driver Log"])
+with tab2:
+    # Filter for fastest drivers per race (session name and type = 'Race')
+    races_df = all_drivers_df[(all_drivers_df["Session Name"] == "Race") & (all_drivers_df["Session Type"] == "Race")].copy()
+    # Year filter
+    years = sorted(races_df["Year"].unique())
+    selected_year = st.selectbox("Year", years, index=len(years)-1, key="race_year")
+    filtered_races_df = races_df[races_df["Year"] == selected_year].copy()
+    st.markdown("### Fastest Drivers Per Race")
+    # Display a table of fastest drivers per race
+    display_races_df = filtered_races_df[["Driver Name", "Race Location", "Date", "Fastest Lap Time"]].copy()
+    display_races_df = display_races_df.rename(columns={
+        "Driver Name": "Driver",
+        "Race Location": "Race",
+        "Date": "Date",
+        "Fastest Lap Time": "Fastest Lap Time"
+    })
+    st.dataframe(display_races_df, use_container_width=True)
 
-# Pivot so each location has Race and Qualifying lap times
-pivot_df = filtered_df.pivot_table(
-    index=["Race Location", "Date"],
-    columns="Session Type",
-    values="Lap Duration",
-    aggfunc="min"
-).reset_index()
+with tab1:
+    ranking_df = all_drivers_df.copy()
 
-# Only keep rows with at least one valid lap
-pivot_df = pivot_df.dropna(subset=["Race", "Qualifying"], how="all")
+    # --- Horizontal filters ---
+    filter_col1, filter_col2, filter_col3 = st.columns(3)
+    with filter_col1:
+        selected_year_ranking = st.selectbox("Year", sorted(ranking_df["Year"].unique()), index=len(ranking_df["Year"].unique())-1, key="ranking_year")
+    with filter_col2:
+        session_names_ranking = ranking_df[ranking_df["Year"] == selected_year_ranking]["Session Name"].unique()
+        selected_session_name_ranking = st.selectbox("Session Name", ["All"] + list(session_names_ranking), key="ranking_session_name")
+    with filter_col3:
+        session_types_ranking = ranking_df[ranking_df["Year"] == selected_year_ranking]["Session Type"].unique()
+        selected_session_type_ranking = st.selectbox("Session Type", ["All"] + list(session_types_ranking), key="ranking_session_type")
 
-# Sort by date (most recent first)
-pivot_df = pivot_df.sort_values(by="Date", ascending=False)
+    # --- Apply filters ---
+    ranking_df = ranking_df[ranking_df["Year"] == selected_year_ranking]
+    if selected_session_name_ranking != "All":
+        ranking_df = ranking_df[ranking_df["Session Name"] == selected_session_name_ranking]
+    if selected_session_type_ranking != "All":
+        ranking_df = ranking_df[ranking_df["Session Type"] == selected_session_type_ranking]
 
-# Format lap times for display
-pivot_df["Race Lap Str"] = pivot_df["Race"].apply(timedelta_to_str)
-pivot_df["Qualifying Lap Str"] = pivot_df["Qualifying"].apply(timedelta_to_str)
+    # --- Count fastest laps per driver ---
+    driver_counts = ranking_df["Driver Name"].value_counts().reset_index()
+    driver_counts.columns = ["Driver", "Fastest Lap Count"]
 
-# Handle empty DataFrame
-if pivot_df.empty:
-    st.warning("No data available for Race or Qualifying sessions in the selected year.")
-    st.stop()
+    # --- Horizontal bar chart ---
+    fig = px.bar(
+        driver_counts,
+        y="Driver",
+        x="Fastest Lap Count",
+        orientation="h",
+        color="Driver",
+        color_discrete_sequence=px.colors.qualitative.Safe,
+        text="Fastest Lap Count",
+    )
+    fig.update_layout(
+        xaxis_title="Number of Fastest Laps",
+        yaxis_title="Driver",
+        title_x=0.5,
+        margin=dict(l=20, r=20, t=40, b=20),
+        showlegend=False
+    )
+    st.plotly_chart(fig, use_container_width=True)
 
-## ========================================
-# Stats under title
-## ========================================
-stats_col1, stats_col2 = st.columns(2)
-stats_col1.metric(label="Total Races", value=pivot_df.shape[0])
-best_race_lap = pivot_df["Race"].min()
-best_race_lap_str = timedelta_to_str(best_race_lap)
-stats_col2.metric(label="Best Race Lap", value=best_race_lap_str)
+with tab3:
+    log_df = all_drivers_df.copy()
+    # --- Horizontal filters ---
+    filter_col1, filter_col2, filter_col3, filter_col4 = st.columns(4)
+    with filter_col1:
+        selected_year_log = st.selectbox("Year", sorted(log_df["Year"].unique()), index=len(log_df["Year"].unique())-1, key="log_year")
+    with filter_col2:
+        driver_names_log = log_df[log_df["Year"] == selected_year_log]["Driver Name"].unique()
+        selected_driver_log = st.selectbox("Driver", ["All"] + list(driver_names_log), key="log_driver")
+    with filter_col3:
+        session_names_log = log_df[log_df["Year"] == selected_year_log]["Session Name"].unique()
+        selected_session_name_log = st.selectbox("Session Name", ["All"] + list(session_names_log), key="log_session_name")
+    with filter_col4:
+        session_types_log = log_df[log_df["Year"] == selected_year_log]["Session Type"].unique()
+        selected_session_type_log = st.selectbox("Session Type", ["All"] + list(session_types_log), key="log_session_type")
 
-## ========================================
-# Grouped Bar Chart: Race vs Qualifying
-## ========================================
-st.markdown(
-    "<h2 style='color:#1E41FF; text-align:center;'>Race vs Qualifying Fastest Laps</h2>",
-    unsafe_allow_html=True
-)
+    # --- Apply filters ---
+    log_df = log_df[log_df["Year"] == selected_year_log]
+    if selected_driver_log != "All":
+        log_df = log_df[log_df["Driver Name"] == selected_driver_log]
+    if selected_session_name_log != "All":
+        log_df = log_df[log_df["Session Name"] == selected_session_name_log]
+    if selected_session_type_log != "All":
+        log_df = log_df[log_df["Session Type"] == selected_session_type_log]
 
-chart_df = pivot_df.copy()
-
-# Melt for grouped bar chart (parallel bars)
-chart_melted = chart_df.melt(
-    id_vars=["Race Location", "Date"],
-    value_vars=["Race", "Qualifying"],
-    var_name="Session",
-    value_name="Lap Duration"
-)
-
-chart_melted["Lap Duration Str"] = chart_melted["Lap Duration"].apply(timedelta_to_str)
-
-fig = px.bar(
-    chart_melted,
-    y="Race Location",
-    x="Lap Duration",
-    color="Session",
-    orientation="h",
-    text="Lap Duration Str",
-    barmode="group",
-    color_discrete_map={"Race": "#1E41FF", "Qualifying": "#FF1E41"}
-)
-
-fig.update_layout(
-    xaxis_tickangle=0,
-    yaxis_title="Race Location",
-    xaxis_title="Lap Time (seconds)",
-    title_x=0.5,
-    margin=dict(l=20, r=20, t=20, b=20),
-    legend_title_text="Session Type"
-)
-
-st.plotly_chart(fig, use_container_width=True)
+    # --- Display log table ---
+    display_log_df = log_df[["Driver Name", "Race Location", "Date", "Session Name", "Session Type", "Fastest Lap Time"]].copy()
+    display_log_df = display_log_df.rename(columns={
+        "Driver Name": "Driver",
+        "Race Location": "Race",
+        "Date": "Date",
+        "Session Name": "Session Name",
+        "Session Type": "Session Type",
+        "Fastest Lap Time": "Fastest Lap Time"
+    })
+    st.dataframe(display_log_df, use_container_width=True)

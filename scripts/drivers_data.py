@@ -1,11 +1,21 @@
 import requests
 import pandas as pd
 
-# Define Max Verstappen's driver number
-driver_number = 1
+## Remove Verstappen filter, will fetch all drivers
 
 # Define the years you want to include
 years = [2023, 2024, 2025]
+
+
+# Fetch all drivers info for mapping driver_number to broadcast_name
+drivers_url = "https://api.openf1.org/v1/drivers"
+drivers_response = requests.get(drivers_url)
+if drivers_response.status_code == 200:
+    drivers_data = drivers_response.json()
+    driver_map = {str(d['driver_number']): d.get('broadcast_name', 'Unknown') for d in drivers_data}
+else:
+    print("Warning: Could not fetch drivers info.")
+    driver_map = {}
 
 # Initialize a list to store race details
 race_details = []
@@ -27,8 +37,8 @@ for year in years:
         session_name = session.get('session_name', 'Unknown')
         session_type = session.get('session_type', 'Unknown')
 
-        # Fetch lap data for Max Verstappen in this session
-        laps_url = f"https://api.openf1.org/v1/laps?session_key={session_key}&driver_number={driver_number}"
+        # Fetch lap data for ALL drivers in this session
+        laps_url = f"https://api.openf1.org/v1/laps?session_key={session_key}"
         laps_response = requests.get(laps_url)
 
         # Check if the response is valid JSON with content
@@ -51,13 +61,17 @@ for year in years:
             minutes = int(lap_time_seconds // 60)
             seconds = lap_time_seconds % 60
             lap_time_formatted = f"{minutes}:{seconds:.3f}"
+            fastest_driver_number = str(fastest_lap.get('driver_number', 'Unknown'))
+            fastest_driver_name = driver_map.get(fastest_driver_number, 'Unknown')
         else:
             lap_time_formatted = "N/A"
+            fastest_driver_name = "N/A"
+            fastest_driver_number = "N/A"
 
         race_details.append({
             "Year": year,
-            "Driver Name": "Max Verstappen",
-            "Driver Number": driver_number,
+            "Driver Name": fastest_driver_name,
+            "Driver Number": fastest_driver_number,
             "Race Location": f"{location}, {country}",
             "Date": date,
             "Session Name": session_name,
@@ -69,7 +83,7 @@ for year in years:
 df = pd.DataFrame(race_details)
 
 # Save the DataFrame to a CSV file
-df.to_csv("verstappen_fastest_laps.csv", index=False)
+df.to_csv("all_drivers_fastest_laps.csv", index=False)
 
 # Optionally, print the DataFrame to the console
 print(df.to_string(index=False))
